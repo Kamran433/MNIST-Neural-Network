@@ -13,7 +13,7 @@ This project implements a neural network from scratch to classify the MNIST hand
 3. **Activation Function (sigmoid, relu, softmax):** The hidden layers typically use the ReLU (Rectified Linear Unit) activation function, while the output layer uses the softmax activation function to produce probabilities for each class.
 
 4. **Forward Propagation:**
-   - \(Z^{[1]} = W^{[1]}X + b^{[1]}\) (for the hidden layer)
+   - $$ (Z^{[1]} = W^{[1]}X + b^{[1]}) $$ (for the hidden layer)
    - \(A^{[1]} = \text{ReLU}(Z^{[1]})\) (activation of the hidden layer)
    - \(Z^{[2]} = W^{[2]}A^{[1]} + b^{[2]}\) (for the output layer)
    - \(A^{[2]} = \text{Softmax}(Z^{[2]})\) (final output probabilities)
